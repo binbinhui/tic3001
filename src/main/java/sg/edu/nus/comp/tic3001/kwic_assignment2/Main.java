@@ -15,18 +15,18 @@ public class Main {
         UI.welcomeMessage();
         UI.enterCommand();
         
-        ListMultimap<String, String> modules = ArrayListMultimap.create();
-		// Add pairs to ListMultimap. 
-		modules.put("CS", "3219"); 
-		modules.put("CS", "4218"); 
-		modules.put("MA", "1101R"); 
-		modules.put("MA", "1100"); 
-		modules.put("IS", "1103");
-		// Get list at this key. 
-		List<String> csModules = modules.get("CS"); 
-		for (String code : csModules) { 
-			System.out.println("CS" + code); 
-			}
+//        ListMultimap<String, String> modules = ArrayListMultimap.create();
+//		// Add pairs to ListMultimap. 
+//		modules.put("CS", "3219"); 
+//		modules.put("CS", "4218"); 
+//		modules.put("MA", "1101R"); 
+//		modules.put("MA", "1100"); 
+//		modules.put("IS", "1103");
+//		// Get list at this key. 
+//		List<String> csModules = modules.get("CS"); 
+//		for (String code : csModules) { 
+//			System.out.println("CS" + code); 
+//			}
     }
 
     public static class FileName {
