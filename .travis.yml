@@ -1,6 +1,6 @@
 language: Java
 
 install: 
-  - brew install maven
+  - sudo apt-get install maven
 
 
